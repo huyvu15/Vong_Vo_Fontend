@@ -12,7 +12,7 @@ const TextArea = () => {
               data-wow-duration="1s"
             >
               <h3 className="about__text-title">
-                Thương hiệu vòng tay cá nhân <br /> hàng đầu hiện nay.
+                Thương hiệu vòng tay cá nhân <br /> hàng đầu hiện nay
               </h3>
             </div>
           </div>

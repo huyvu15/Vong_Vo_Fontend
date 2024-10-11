@@ -75,7 +75,7 @@ const SingleOrder = ({ params }) => {
                         <div className="invoice__left">
                           <Image className="mb-15" src={logo} alt="logo" width={70}/>
                           <p>
-                            14 An Đào Trâu Quỳ <br /> Gia Lâm, Hà Nội
+                          Số 1 Đại Cồ Việt, <br /> Hai Bà Trưng, Hà Nội
                           </p>
                         </div>
                       </div>

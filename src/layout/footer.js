@@ -68,7 +68,7 @@ const Footer = () => {
                   title="Công ty"
                   contents={[
                     { url: "#", title: "Về chúng tôi" },
-                    { url: "#", title: "Nghề nghiệp" },
+                    // { url: "#", title: "Nghề nghiệp" },
                     { url: "#", title: "Địa điểm cửa hàng" },
                     { url: "#", title: "Blog của chúng tôi" },
                     { url: "#", title: "Đánh giá" },
@@ -78,13 +78,13 @@ const Footer = () => {
                   col="2"
                   col_2="3"
                   col_3="3"
-                  title="Cửa hàng"
+                  title="Sản phẩm"
                   contents={[
                     { url: "#", title: "Vòng bện dây" },
                     { url: "#", title: "Vòng hạt cườm" },
-                    { url: "#", title: "Vòng tay thời trang" },
-                    { url: "#", title: "Vòng chất" },
-                    { url: "#", title: "Vòng xinh" },
+                    { url: "#", title: "Vòng đôi" },
+                    { url: "#", title: "Vòng nam" },
+                    { url: "#", title: "Vòng nữ" },
                   ]}
                 />
                 <SingleWidget
@@ -97,7 +97,7 @@ const Footer = () => {
                     { url: "/terms", title: "Điều khoản & điều kiện" },
                     { url: "/contact", title: "Liên hệ chúng tôi" },
                     { url: "/policy", title: "Chính sách" },
-                    { url: "/about", title: "Về chúng tôi" },
+                    // { url: "/about", title: "Về chúng tôi" },
                   ]}
                 />
 

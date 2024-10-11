@@ -81,7 +81,7 @@ const OrderArea = ({
                 aria-expanded="true"
                 aria-controls="bankOne"
               >
-                Thanh toán bằng VNPay tạm thời đang lỗi
+                Thanh toán bằng VNPay (tạm thời đang lỗi)
               </button>
             </h2>
             <div

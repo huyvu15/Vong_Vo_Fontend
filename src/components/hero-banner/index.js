@@ -28,12 +28,12 @@ const slider_data = [
     id: 2,
     pre_title: (
       <>
-        Vòng tay <br /> Cá tính
+        Lấp lánh <br /> Tỏa sáng
       </>
     ),
     title: (
       <>
-        Hình ảnh <br /> sắc nét.
+        Tiệm cái <br /> vòng nè! 
       </>
     ),
     img: slider_img_2,
