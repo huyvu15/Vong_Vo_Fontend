@@ -18,7 +18,7 @@ import { Dashboard, Mobile, Website } from "@svg/index";
   {
     icon: <Dashboard />,
     project: '24h',
-    title: "Hỗ tợ",
+    title: "Hỗ trợ",
   },
 ];
 
