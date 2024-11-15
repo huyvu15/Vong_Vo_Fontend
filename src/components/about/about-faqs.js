@@ -74,7 +74,7 @@ const AboutFaqs = () => {
       <VideoModal
         isVideoOpen={isVideoOpen}
         setIsVideoOpen={setIsVideoOpen}
-        videoId={"DFu659oslcI"}
+        videoId={"ycp1gAQp9-U"}
       />
       {/* video modal end */}
     </React.Fragment>
