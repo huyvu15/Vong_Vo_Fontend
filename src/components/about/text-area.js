@@ -12,10 +12,12 @@ const TextArea = () => {
               data-wow-duration="1s"
             >
               <h3 className="about__text-title">
-                Thương hiệu vòng tay cá nhân <br /> hàng đầu hiện nay
+                Thương hiệu vòng tay <br />cá nhân hàng đầu<br /> hiện nay
               </h3>
             </div>
           </div>
+          
+
           <div className="col-xl-8 col-lg-8">
             <div
               className="about__text wow fadeInUp"
@@ -36,9 +38,94 @@ const TextArea = () => {
               </p>
             </div>
           </div>
+          <div className="col-xl-4 col-lg-4">
+            <div
+              className="about__text-wrapper wow fadeInUp"
+              data-wow-delay=".3s"
+              data-wow-duration="1s"
+            >
+              <h3 className="about__text-title">
+                Tầm nhìn <br /> 
+              </h3>
+            </div>
+          </div>
+
+          <div className="col-xl-8 col-lg-8">
+            <div
+              className="about__text wow fadeInUp"
+              data-wow-delay=".6s"
+              data-wow-duration="1s"
+            >
+              <p>
+                <b>Trở thành cửa tiệm đáng tin cậy và yêu thích</b> cho những người đam mê vòng tay, nơi mỗi món trang sức không chỉ là phụ kiện thời trang mà còn là câu chuyện về cá tính và phong cách sống.
+              </p>
+              
+            </div>
+          </div>
+    
+          <div className="col-xl-4 col-lg-4">
+            <div
+              className="about__text-wrapper wow fadeInUp"
+              data-wow-delay=".3s"
+              data-wow-duration="1s"
+            >
+              <h3 className="about__text-title">
+                Sứ mệnh <br /> 
+              </h3>
+            </div>
+          </div>
+
+          <div className="col-xl-8 col-lg-8">
+            <div
+              className="about__text wow fadeInUp"
+              data-wow-delay=".6s"
+              data-wow-duration="1s"
+            >
+              
+              <p>
+              Biến những chiếc vòng trở thành kiệt tác trên cổ tay của mỗi khách hàng, mang đến những chiếc vòng không chỉ đẹp về hình thức mà còn chứa đựng câu chuyện và cảm xúc riêng, giúp người đeo tự tin tỏa sáng theo cách của riêng mình.
+              </p>
+
+              <p>
+              Xây dựng một không gian ấm áp, nơi mỗi vị khách đều được đón chào như người thân trong gia đình, được lắng nghe và thấu hiểu trong từng lựa chọn sản phẩm.
+              </p>
+
+            </div>
+          </div>
+
+          <div className="col-xl-4 col-lg-4">
+            <div
+              className="about__text-wrapper wow fadeInUp"
+              data-wow-delay=".3s"
+              data-wow-duration="1s"
+            >
+              <h3 className="about__text-title">
+              Giá trị cốt lõi 
+              </h3>
+            </div>
+          </div>
+
+          <div className="col-xl-8 col-lg-8">
+            <div
+              className="about__text wow fadeInUp"
+              data-wow-delay=".6s"
+              data-wow-duration="1s"
+            >
+              
+              <p>
+              Tỉ mỉ - Tinh tế - Tin cậy - Tâm huyết.
+              </p>
+
+              
+
+            </div>
+          </div> 
+
+
         </div>
       </div>
     </section>
+    
   );
 };
 

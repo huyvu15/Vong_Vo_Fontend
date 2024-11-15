@@ -12,7 +12,7 @@ const AboutTopBar = () => {
           <div className="col-xl-8 col-lg-10">
             <div className="about__heading-content text-center p-relative z-index-1">
               <span className="about__heading-subtitle">About us</span>
-              <h3 className="about__heading-title">
+              <h3 className="about__heading-title" >
               Chào mừng đến với <br /> Tiemcaivongne
               </h3>
             </div>

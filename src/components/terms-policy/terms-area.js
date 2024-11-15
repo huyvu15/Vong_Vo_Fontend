@@ -10,90 +10,65 @@ const TermsArea = () => {
             <div className="policy__wrapper policy__translate p-relative z-index-1">
               <div className="policy__item mb-35">
                 <h4 className="policy__meta">
-                  Last updated: September 18, 2022
+                 Cập nhật lần cuối: ngày 18 tháng 10 năm 2024
                 </h4>
                 <p>
-                  These are the Terms and Conditions governing the use of this
-                  Service and the agreement that operates between You and the
-                  Company. These Terms and Conditions set out the rights and
-                  obligations of all users regarding the use of the Service.Your
-                  access to and use of the Service is conditioned on Your
-                  acceptance of and compliance with these Terms and Conditions.
-                  These Terms and Conditions apply to all visitors, users and
-                  others who access or use the Service.
+                Đây là các Điều khoản và Điều kiện quy định việc sử dụng Dịch vụ này và thỏa thuận được thực hiện giữa Bạn và Công ty. Các Điều khoản và Điều kiện này xác định quyền và nghĩa vụ của tất cả người dùng liên quan đến việc sử dụng Dịch vụ. Việc bạn truy cập và sử dụng Dịch vụ phụ thuộc vào việc bạn chấp nhận và tuân thủ các Điều khoản và Điều kiện này. Các Điều khoản và Điều kiện này áp dụng cho tất cả khách truy cập, người dùng và những người khác truy cập hoặc sử dụng Dịch vụ.
                 </p>
                 <p>
-                  By using or accessing the Services in any manner, you
-                  acknowledge that you accept the practices and policies
-                  outlined in this Privacy Policy, and you hereby consent that
-                  Harry will collect, use, and share your information in the
-                  following ways. Remember that your use of Services is at all
-                  times subject to the Terms as set forth at
-                  https://harry.com/legal/terms, which incorporate this Privacy
-                  Policy. Any terms Harry uses in this Privacy Policy without
-                  defining them have the definitions given to them in the Terms.
+                Bằng cách sử dụng hoặc truy cập Dịch vụ theo bất kỳ cách nào, bạn xác nhận rằng bạn chấp nhận các thực hành và chính sách được nêu trong Chính sách Bảo mật này, và bạn đồng ý rằng Chúng tôi sẽ thu thập, sử dụng và chia sẻ thông tin của bạn theo các cách sau đây. Hãy nhớ rằng việc bạn sử dụng Dịch vụ luôn phải tuân theo các Điều khoản như đã quy định tại https://tiemcaivongne.store/legal/terms, bao gồm cả Chính sách Bảo mật này. Bất kỳ thuật ngữ nào mà Chúng tôi sử dụng trong Chính sách Bảo mật này mà không được định nghĩa đều có các định nghĩa đã được đưa ra trong Điều khoản.
                 </p>
               </div>
 
               <div className="policy__item policy__item-2 mb-35">
-                <h3 className="policy__title">Definitions</h3>
+                <h3 className="policy__title">Định nghĩa</h3>
                 <p>
-                  The words of which the initial letter is capitalized have
-                  meanings defined under the following conditions. The following
-                  definitions shall have the same meaning regardless of whether
-                  they appear in singular or in plural.
+                Các từ mà chữ cái đầu được viết hoa có ý nghĩa được định nghĩa theo các điều kiện sau đây. Các định nghĩa sau sẽ có cùng ý nghĩa dù chúng xuất hiện ở dạng số ít hay số nhiều.
                 </p>
               </div>
 
               <div className="policy__list mb-35">
                 <h3 className="policy__title">
-                  Purposes of these Terms and Conditions:
+                Mục đích của các Điều khoản và Điều kiện này:
                 </h3>
                 <ul>
                   <li>
-                    <strong>Affiliate</strong> means an entity that controls, is
-                    controlled by or is under common control with a party, where
-                    &quot;control&quot; means ownership of 50% or more of the
-                    shares, equity interest or other securities entitled to vote
-                    for election of directors or other managing authority.
+                    <strong>Đối tác liên kết</strong> có nghĩa là một thực thể kiểm soát, bị kiểm soát bởi hoặc cùng chịu sự kiểm soát với một bên, trong đó "kiểm soát" nghĩa là sở hữu 50% hoặc nhiều hơn cổ phần, lợi ích vốn hoặc các chứng khoán khác có quyền bỏ phiếu để bầu cử giám đốc hoặc cơ quan quản lý khác.
                   </li>
                   <li>
-                    <strong>Country</strong> refers to: California, United
-                    States
+                    <strong>Quốc gia</strong> đề cập đến: California, Hoa Kỳ
                   </li>
                   <li>
-                    <strong>Company</strong> (referred to as either &quot;the
-                    Company&quot;, &quot;We&quot;, &quot;Us&quot; or
-                    &quot;Our&quot; in this Agreement) refers to Harry.
+                    <strong>Công ty</strong> (được gọi là "Công ty", "Chúng tôi", "Chúng ta" hoặc "Của Chúng tôi" trong Thỏa thuận này) đề cập đến Chúng tôi.
                   </li>
                   <li>
-                    <strong>Device</strong> means any device that can access the
-                    Service such as a computer, a cellphone or a digital tablet.
+                    <strong>Thiết bị</strong> có nghĩa là bất kỳ thiết bị nào có thể truy cập Dịch vụ, chẳng hạn như máy tính, điện thoại di động hoặc máy tính bảng kỹ thuật số.
                   </li>
                   <li>
-                    <strong>Service</strong> refers to the Website.
+                    <strong>Dịch vụ</strong> đề cập đến Trang web.
                   </li>
                   <li>
-                    <strong>Website</strong> refers to Harry, accessible from{" "}
+                    <strong>Trang web</strong> đề cập đến Chúng tôi, có thể truy cập tại{" "}
                     <Link
                       href="/"
                       rel="external nofollow noopener"
                       target="_blank"
                     >
-                      harry.com
+                      Tiemcaivongne.store
                     </Link>
                   </li>
+
                 </ul>
               </div>
               <div className="policy__contact">
                 <h3 className="policy__title policy__title-2">Contact us</h3>
-                <p>You may contact us at any time via:</p>
+                <p>Bạn có thể liên hệ với chúng tôi bất cứ lúc nào qua:</p>
 
                 <ul>
                   <li>
                     Email:{" "}
                     <span>
-                      <a href="mailto:harry.com">support@harry.com</a>
+                      <a href="mailto:tiemcaivongne.store">tiemcaivongne@gmail.com</a>
                     </span>
                   </li>
                 </ul>
@@ -105,7 +80,7 @@ const TermsArea = () => {
                       href="https://www.google.com/maps/place/102+Thompson+St,+New+York,+NY+10012,+USA/@40.7255437,-74.004061,17z/data=!3m1!4b1!4m5!3m4!1s0x89c2598c338f691d:0x6d5f394e7a1962cc!8m2!3d40.7255397!4d-74.0018723"
                       target="_blank"
                     >
-                      harry PTY LTD <br /> 4270, Brisbane, Australia
+                      Tiemcaivongne <br /> Ngõ 90 Tôn Đức Thắng, Quốc Tử Giám, Đống Đa, Hanoi, Vietnam
                     </a>
                   </p>
                 </div>
