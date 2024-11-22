@@ -13,7 +13,7 @@ const team_data = [
     img:img_1,
     name:'John Nguyễn',
     title:'Nhà sáng lập',
-    mail:'mailto:tiemcaivongne@gmail.com',
+    mail:'mailto:info@tiemcaivongne.store',
     social_links: [
       { link: 'http://facebook.com', target: '_blank', icon: 'fa-brands fa-facebook-f', name: 'Facebook' },
       { link: 'http://twitter.com', target: '_blank', icon: 'fa-brands fa-twitter', name: 'Twitter' },
@@ -26,7 +26,7 @@ const team_data = [
     img:img_2,
     name:'Haa Lê',
     title:'Thiết kế sản phẩm',
-    mail:'mailto:tiemcaivongne@gmail.com',
+    mail:'mailto:info@tiemcaivongne.store',
     social_links: [
       { link: 'http://facebook.com', target: '_blank', icon: 'fa-brands fa-facebook-f', name: 'Facebook' },
       { link: 'http://twitter.com', target: '_blank', icon: 'fa-brands fa-twitter', name: 'Twitter' },
@@ -39,7 +39,7 @@ const team_data = [
     img:img_3,
     name:'Tuấn Long',
     title:'Giám đốc sáng tạo',
-    mail:'mailto:tiemcaivongne@gmail.com',
+    mail:'mailto:info@tiemcaivongne.store',
     social_links: [
       { link: 'http://facebook.com', target: '_blank', icon: 'fa-brands fa-facebook-f', name: 'Facebook' },
       { link: 'http://twitter.com', target: '_blank', icon: 'fa-brands fa-twitter', name: 'Twitter' },
@@ -52,7 +52,7 @@ const team_data = [
     img:img_4,
     name:'Vũ Huy',
     title:'Nhà phát triển',
-    mail:'mailto:tiemcaivongne@gmail.com',
+    mail:'mailto:info@tiemcaivongne.store',
     social_links: [
       { link: 'http://facebook.com', target: '_blank', icon: 'fa-brands fa-facebook-f', name: 'Facebook' },
       { link: 'http://twitter.com', target: '_blank', icon: 'fa-brands fa-twitter', name: 'Twitter' },
@@ -65,7 +65,7 @@ const team_data = [
     img:img_5,
     name:'Linh Chi',
     title:'Cán bộ tư vấn',
-    mail:'mailto:tiemcaivongne@gmail.com',
+    mail:'mailto:info@tiemcaivongne.store',
     social_links: [
       { link: 'http://facebook.com', target: '_blank', icon: 'fa-brands fa-facebook-f', name: 'Facebook' },
       { link: 'http://twitter.com', target: '_blank', icon: 'fa-brands fa-twitter', name: 'Twitter' },
@@ -78,7 +78,7 @@ const team_data = [
     img:img_6,
     name:'Tiến Dũng',
     title:'Quản lý kinh doanh',
-    mail:'mailto:tiemcaivongne@gmail.com',
+    mail:'mailto:info@tiemcaivongne.store',
     social_links: [
       { link: 'http://facebook.com', target: '_blank', icon: 'fa-brands fa-facebook-f', name: 'Facebook' },
       { link: 'http://twitter.com', target: '_blank', icon: 'fa-brands fa-twitter', name: 'Twitter' },

@@ -36,7 +36,7 @@ const BoxItems = () => {
             content={
               <>
                 <p>
-                  <a href="mailto:tiemcaivongne@gmail.com">tiemcaivongne@gmail.com</a>
+                  <a href="mailto:info@tiemcaivongne.store">info@tiemcaivongne.store</a>
                 </p>
                 <p>
                   <a href="tel:84-332-456-789">+(84) 332 456 789</a>

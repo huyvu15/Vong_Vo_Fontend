@@ -62,7 +62,7 @@ const SingleListProduct = ({ product }) => {
                 <span className="product__list-ammount">{price}đ</span>
               </div>
               <p>
-                Mua hàng tại Tiemcaivongne hàng ngày để nhận ưu đãi. Miễn phí giao hàng cho đơn trên 1000000đ
+                Mua hàng tại Tiemcaivongne hàng ngày để nhận ưu đãi. Miễn phí giao hàng cho đơn trên 1.000.000đ
                 .
               </p>
 

@@ -39,13 +39,13 @@ const PriceItem = ({ id, min, max }) => {
             : false
         }
       />
-      {max < 1000 ? (
+      {max < 40000 ? (
         <label htmlFor={`higher-${id}`}>
-          ${min} - ${max}
+          {min}đ - {max}đ
         </label>
       ) : (
         <label htmlFor={`higher-${id}`}>
-          ${max}+
+          {max}đ +
         </label>
       )}
     </div>

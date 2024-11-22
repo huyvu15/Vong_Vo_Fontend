@@ -68,7 +68,7 @@ const TermsArea = () => {
                   <li>
                     Email:{" "}
                     <span>
-                      <a href="mailto:tiemcaivongne.store">tiemcaivongne@gmail.com</a>
+                      <a href="mailto:tiemcaivongne.store">info@tiemcaivongne.store</a>
                     </span>
                   </li>
                 </ul>

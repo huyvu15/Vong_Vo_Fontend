@@ -50,7 +50,7 @@ const PolicyArea = () => {
                   <li>
                     Email:{" "}
                     <span>
-                      <a href="mailto:Tiemcaivongne.com">tiemcaivongne@gmail.com</a>
+                      <a href="mailto:Tiemcaivongne.com">info@tiemcaivongne.store</a>
                     </span>
                   </li>
                 </ul>
