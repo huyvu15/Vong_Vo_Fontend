@@ -101,8 +101,7 @@ const ProductModal = () => {
             <div className="product__details-wrapper">
               <h3 className="product__details-title">{title}</h3>
               <p className="mt-20">
-                Mua hàng tại Tiemcaivongne hàng ngày để nhận ưu đãi. Miễn phí giao hàng cho đơn trên 1000000
-                .
+                Mua hàng tại Tiemcaivongne hàng ngày để nhận ưu đãi. Miễn phí giao hàng cho đơn trên 1.000.000đ
               </p>
               {/* Price */}
               <OldNewPrice

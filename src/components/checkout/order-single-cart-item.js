@@ -7,7 +7,9 @@ const OrderSingleCartItem = ({ title, quantity, price, discount }) => {
         {title} <strong className="product-quantity"> × {quantity}</strong>
       </td>
       <td className="product-total text-end">
-        <span className="amount">{price*(100-discount)/100}đ</span>
+      <span className="amount">
+        {(price * (100 - discount) / 100).toLocaleString("vi-VN")}đ
+      </span>
       </td>
     </tr>
   );

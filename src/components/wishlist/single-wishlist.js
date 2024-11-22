@@ -44,7 +44,9 @@ const SingleWishlist = ({ item }) => {
         <Link href={`product-details/${_id}`}>{title}</Link>
       </td>
       <td className="product-price">
-        <span className="amount">{originalPrice * (100 - discount)/100}đ</span>
+        <span className="amount">
+          {(originalPrice * (100 - discount) / 100).toLocaleString("vi-VN")}đ
+        </span>
       </td>
       <td className="product-quantity">
         <div className="tp-product-quantity mt-10 mb-10">
@@ -65,8 +67,8 @@ const SingleWishlist = ({ item }) => {
       <td className="product-subtotal">
         <span className="amount">
           {isAddToCart?.orderQuantity
-            ? (originalPrice * (100 - discount)/100 * isAddToCart?.orderQuantity).toFixed(0)
-            : (originalPrice * 0).toFixed(0)}đ
+            ? (originalPrice * (100 - discount) / 100 * isAddToCart?.orderQuantity).toLocaleString("vi-VN")
+            : (originalPrice * 0).toLocaleString("vi-VN")}đ
         </span>
       </td>
       <td className="product-remove">

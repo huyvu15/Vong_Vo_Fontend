@@ -10,10 +10,10 @@ const CartTotal = () => {
       <h2>Tổng hàng</h2>
       <ul className="mb-20">
         <li>
-          Tổng <span>{total.toFixed(0)}đ</span>
+          Tổng <span>{total.toLocaleString("vi-VN")}đ</span>
         </li>
         <li>
-          Thành tiền <span>{total.toFixed(0)}đ</span>
+          Thành tiền <span>{total.toLocaleString("vi-VN")}đ</span>
         </li>
       </ul>
       <Link href="/checkout" className="tp-btn cursor-pointer">

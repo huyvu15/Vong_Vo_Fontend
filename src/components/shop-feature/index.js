@@ -30,7 +30,7 @@ const ShopFeature = () => {
               title="Miễn phí vẫn chuyển"
               subtitle={
                 <>
-                  Miễn phí vẫn chuyển cho đơn <br /> trên 1000000đ
+                  Miễn phí vẫn chuyển cho đơn <br /> trên 1.000.000đ
                 </>
               }
             />

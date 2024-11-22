@@ -19,7 +19,7 @@ const OrderDetails = ({
       <tr className="cart-subtotal">
         <th>Tiền giỏ hàng</th>
         <td className="text-end">
-          <span className="amount text-end">{total}đ</span>
+          <span className="amount text-end">{total.toLocaleString("vi-VN")}đ</span>
         </td>
       </tr>
       <tr className="shipping">
@@ -36,10 +36,10 @@ const OrderDetails = ({
                 name="shippingOption"
               />
               <label
-                onClick={() => handleShippingCost(50000)}
+                onClick={() => handleShippingCost(30000)}
                 htmlFor="flat_shipping"
               >
-                <span className="amount">Giao trong ngày: 50000đ</span>
+                <span className="amount">Giao trong ngày: {30000 .toLocaleString("vi-VN")}đ</span>
               </label>
               <ErrorMessage message={errors?.shippingOption?.message} />
             </li>
@@ -57,7 +57,7 @@ const OrderDetails = ({
                 onClick={() => handleShippingCost(10000)}
                 htmlFor="free_shipping"
               >
-                Giao trong 7 ngày : 10000đ
+                Giao trong 7 ngày : {10000 .toLocaleString("vi-VN")}đ
               </label>
               <ErrorMessage message={errors?.shippingOption?.message} />
             </li>
@@ -65,20 +65,11 @@ const OrderDetails = ({
         </td>
       </tr>
 
-      {/* <tr className="shipping">
-        <th>Sub Total</th>
-        <td className="text-end">
-          <strong>
-            <span className="amount">${total}</span>
-          </strong>
-        </td>
-      </tr> */}
-
       <tr className="shipping">
         <th>Phí giao hàng</th>
         <td className="text-end">
           <strong>
-            <span className="amount">{shippingCost}đ</span>
+            <span className="amount">{shippingCost.toLocaleString("vi-VN")}đ</span>
           </strong>
         </td>
       </tr>
@@ -87,7 +78,7 @@ const OrderDetails = ({
         <th>Giảm giá</th>
         <td className="text-end">
           <strong>
-            <span className="amount">{discountAmount.toFixed(0)}đ</span>
+            <span className="amount">{discountAmount.toLocaleString("vi-VN")}đ</span>
           </strong>
         </td>
       </tr>
@@ -96,7 +87,7 @@ const OrderDetails = ({
         <th>Thành tiền</th>
         <td className="text-end">
           <strong>
-            <span className="amount">{cartTotal.toFixed(0)}đ</span>
+            <span className="amount">{cartTotal.toLocaleString("vi-VN")}đ</span>
           </strong>
         </td>
       </tr>

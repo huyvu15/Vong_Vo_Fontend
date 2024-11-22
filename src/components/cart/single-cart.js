@@ -3,30 +3,41 @@ import Image from "next/image";
 import Link from "next/link";
 import { useDispatch } from "react-redux";
 // internal
-import {Minus,Plus} from "@svg/index";
-import { add_cart_product, quantityDecrement, remove_product } from "src/redux/features/cartSlice";
+import { Minus, Plus } from "@svg/index";
+import {
+  add_cart_product,
+  quantityDecrement,
+  remove_product,
+} from "src/redux/features/cartSlice";
 
-const SingleCartItem = ({item}) => {
-  const {_id,image,title,originalPrice,orderQuantity=0,discount} = item || {};
-  const dispatch = useDispatch()
+const SingleCartItem = ({ item }) => {
+  const {
+    _id,
+    image,
+    title,
+    originalPrice,
+    orderQuantity = 0,
+    discount,
+  } = item || {};
+  const dispatch = useDispatch();
 
   // handle add product
   const handleAddProduct = (prd) => {
-    dispatch(add_cart_product(prd))
-  }
+    dispatch(add_cart_product(prd));
+  };
 
   // handle decrement product
   const handleDecrement = (prd) => {
-    dispatch(quantityDecrement(prd))
-  }
+    dispatch(quantityDecrement(prd));
+  };
 
   // handle remove product
   const handleRemovePrd = (prd) => {
-    dispatch(remove_product(prd))
-  }
+    dispatch(remove_product(prd));
+  };
 
   // handleChange
-  const handleChange = (e) => {}
+  const handleChange = (e) => {};
   return (
     <tr>
       <td className="product-thumbnail">
@@ -38,24 +49,39 @@ const SingleCartItem = ({item}) => {
         <Link href={`product-details/${_id}`}>{title}</Link>
       </td>
       <td className="product-price">
-        <span className="amount">{originalPrice*(100-discount)/100}đ</span>
+        <span className="amount">
+          {(originalPrice * (100 - discount) / 100).toLocaleString("vi-VN")}đ
+        </span>
       </td>
       <td className="product-quantity">
         <div className="tp-product-quantity mt-10 mb-10">
-          <span className="tp-cart-minus" onClick={()=> handleDecrement(item)}>
-            <Minus/>
+          <span
+            className="tp-cart-minus"
+            onClick={() => handleDecrement(item)}
+          >
+            <Minus />
           </span>
-          <input className="tp-cart-input" type="text" value={orderQuantity} onChange={handleChange} />
-          <span className="tp-cart-plus" onClick={()=> handleAddProduct(item)}>
-            <Plus/>
+          <input
+            className="tp-cart-input"
+            type="text"
+            value={orderQuantity}
+            onChange={handleChange}
+          />
+          <span className="tp-cart-plus" onClick={() => handleAddProduct(item)}>
+            <Plus />
           </span>
         </div>
       </td>
       <td className="product-subtotal">
-        <span className="amount">{((originalPrice*(100-discount)/100) * orderQuantity).toFixed(0)}đ</span>
+        <span className="amount">
+          {(
+            (originalPrice * (100 - discount) / 100) *
+            orderQuantity
+          ).toLocaleString("vi-VN")}đ
+        </span>
       </td>
       <td className="product-remove">
-        <button type="submit" onClick={()=> handleRemovePrd(item)}>
+        <button type="submit" onClick={() => handleRemovePrd(item)}>
           <i className="fa fa-times"></i>
         </button>
       </td>

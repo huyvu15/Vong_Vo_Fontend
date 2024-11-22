@@ -40,14 +40,14 @@ const PriceItem = ({ id, min, max }) => {
         }
       />
       {max < 40000 ? (
-        <label htmlFor={`higher-${id}`}>
-          {min}đ - {max}đ
-        </label>
-      ) : (
-        <label htmlFor={`higher-${id}`}>
-          {max}đ +
-        </label>
-      )}
+      <label htmlFor={`higher-${id}`}>
+        {min.toLocaleString("vi-VN")}đ - {max.toLocaleString("vi-VN")}đ
+      </label>
+    ) : (
+      <label htmlFor={`higher-${id}`}>
+        {max.toLocaleString("vi-VN")}đ +
+      </label>
+  )}
     </div>
   );
 };

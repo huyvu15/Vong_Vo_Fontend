@@ -45,7 +45,7 @@ const CartSidebar = ({ isCartOpen, setIsCartOpen }) => {
           <div className="cartmini__checkout">
             <div className="cartmini__checkout-title mb-30">
               <h4>Tổng tiền:</h4>
-              <span>{total.toFixed(0)}đ</span>
+              <span>{total.toLocaleString("vi-VN")}đ</span>
             </div>
             <div className="cartmini__checkout-btn">
               <Link href="/cart" className="tp-btn mb-10 w-100">

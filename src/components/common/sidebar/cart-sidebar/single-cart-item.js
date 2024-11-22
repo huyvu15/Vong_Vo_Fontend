@@ -26,11 +26,13 @@ const SingleCartItem = ({ item }) => {
         </h5>
         <div className="cartmini__price-wrapper">
           {!discount && (
-            <span className="cartmini__price">{originalPrice}đ</span>
+            <span className="cartmini__price">
+              {originalPrice.toLocaleString("vi-VN")}đ
+            </span>
           )}
           {discount > 0 && (
             <span className="cartmini__price">
-              {(originalPrice - (originalPrice * discount) / 100)}đ
+              {(originalPrice - (originalPrice * discount) / 100).toLocaleString("vi-VN")}đ
             </span>
           )}
           <span className="cartmini__quantity">x{orderQuantity}</span>

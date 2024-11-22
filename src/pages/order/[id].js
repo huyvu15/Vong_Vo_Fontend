@@ -135,8 +135,8 @@ const SingleOrder = ({ params }) => {
                       <td>{i + 1}</td>
                       <td>{item.title}</td>
                       <td>{item.orderQuantity}</td>
-                      <td>{item?.discount ? (item.originalPrice - (item.originalPrice * item.discount) / 100) : item.originalPrice}đ</td>
-                      <td>{(item?.discount ? (item.originalPrice - (item.originalPrice * item.discount) / 100) * item.orderQuantity : item.originalPrice * item.orderQuantity).toFixed(0)}đ</td>
+                      <td>{item?.discount ? (item.originalPrice - (item.originalPrice * item.discount) / 100) : item.toLocaleString("vi-VN")}đ</td>
+                      <td>{(item?.discount ? (item.originalPrice - (item.originalPrice * item.discount) / 100) * item.orderQuantity : item.originalPrice * item.orderQuantity).toLocaleString("vi-VN")}đ</td>
                     </tr>
                   ))}
                 </tbody>

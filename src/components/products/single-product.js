@@ -118,13 +118,14 @@ const SingleProduct = ({ product, discountPrd = false }) => {
           <h3 className="product__title">
             <Link href={`/product-details/${_id}`}>{title}</Link>
           </h3>
+          {/* sửa đoạn chấm hàng nghìn */}
           {discount <= 0 && (
-            <div className="product__price">
-              <span className="product__ammount">
-                {originalPrice.toFixed(0)}đ
-              </span>
-            </div>
-          )}
+          <div className="product__price">
+            <span className="product__ammount">
+              {originalPrice.toLocaleString("vi-VN")}đ
+            </span>
+          </div>
+        )}
           {discount > 0 && (
             <OldNewPrice originalPrice={originalPrice} discount={discount} />
           )}

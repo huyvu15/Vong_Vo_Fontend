@@ -88,8 +88,7 @@ const ProductDetailsArea = ({ product }) => {
               <h3 className="product__details-title">{title}</h3>
 
               <p className="mt-20">
-                Mua hàng tại Tiemcaivongne hàng ngày để nhận ưu đãi. Miễn phí giao hàng cho đơn trên 1000000đ
-                .
+                Mua hàng tại Tiemcaivongne hàng ngày để nhận ưu đãi. Miễn phí giao hàng cho đơn trên 1.000.000đ
               </p>
 
               {/* Product Details Price */}
