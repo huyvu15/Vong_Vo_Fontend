@@ -26,7 +26,7 @@ const CopyrightText = () => {
         Đã đăng ký Bản quyền.
       </p>
       <div style={{ textAlign: "center", marginTop: "10px",  }}>
-        <Link href="https://huyvu15.github.io">
+        <Link href="https://tiemcaivongne.store">
           <img 
             src="https://dangkywebvoibocongthuong.com/wp-content/uploads/2021/11/logo-da-thong-bao-bo-cong-thuong.png" 
             alt="Footer Image" 
