@@ -39,7 +39,7 @@ const BoxItems = () => {
                   <a href="mailto:info@tiemcaivongne.store">info@tiemcaivongne.store</a>
                 </p>
                 <p>
-                  <a href="tel:84-332-456-789">+(84) 332 456 789</a>
+                  <a href="tel:84-332-456-789">+(84) 27 590 544</a>
                 </p>
               </>
             }
